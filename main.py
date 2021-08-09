@@ -12,7 +12,7 @@ option.add_experimental_option('useAutomationExtension', False)
 browser = webdriver.Chrome(executable_path='/Users/khangvu/Downloads/chromedriver', options=option)
 
 browser.get("https://docs.google.com/forms/d/e/1FAIpQLSdLldhfK92S0TLezyFpR8-LupGCm7vbwPX4fHvmES5Wu0TQyw/viewform")
-usernameStr = 'khang.m.vu@vntrip.vn'
+usernameStr = 'xxx@vntrip.vn'
 passwordStr = '******'
 username = browser.find_element_by_id('identifierId')
 username.send_keys(usernameStr)
